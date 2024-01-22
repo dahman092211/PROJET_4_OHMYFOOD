@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.rounded {
+    border-radius: 10px; /* Ajustez le rayon pour obtenir des coins plus ou moins arrondis */
+}
+
+.btn:hover {
+    background-color: #3498db; /* Couleur de fond du bouton au survol */
+}
+
+.btn i {
+    margin-right: 5px; /* Ajouter un espace entre l'icône et le texte du bouton */
+}
+
+
+div {
+    text-align: center;
+}
+
+.button {
+    background: var(--White, #FFF);
+
+    /* Shadow/Badge */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#800080 ;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    max-width: 300px; 
+    
+}
+
+
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8; 
+}
+.location-container {
+    display: flex;
+    align-items: center;
+    text-align: center; /* Ajout de la propriété pour centrer horizontalement */
+}
+
+.Cities-Country {
+    width: 300px;
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--main-bg-color);
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icone-location {
+    background-color: var(--main-bg-color);
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px; 
+}
+
+
+
+.h2 Section Title {
+
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 33px;
+}
+
+.cards a {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /* Centrer verticalement les cartes */
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 100%;
+}
+
+.card img {
+    width: 100%; /* La largeur de l'image est maintenant ajustée à 100% de la carte */
+    max-height: 136px; /* Définir une hauteur maximale pour les images */
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.cards .card-subtitle {
+    margin: 0;
+}
+
+.cards .card-rating {
+    margin-bottom: 5px;
+}
+
+
+
+    footer {
+        background: var(--Grey, #353535);
+        display: flex;
+        width: 100%; /* Pour occuper la largeur complète de l'écran */
+        height: 114px;
+        padding: 30px 25px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 16px;
+        flex-shrink: 0;
+    }
+    
+    footer section {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    footer div {
+        text-align: center;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+    footer h4 {
+        margin: 0;
+        color: #fff; /* Couleur du texte dans le pied de page */
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+
